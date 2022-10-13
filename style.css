@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+ul a {
+  text-decoration: none;
+}
+
+.btn-danger {
+  height: 48px;
+  border-radius: 0;
+}
+.main-image {
+  background: url(/images/3792\ 1.png);
+  height: 614px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  height: 2px;
+  width: 20px;
+  background-color: red;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.about-us h1 {
+  font-size: 50px;
+}
+
+.abou-us h4 {
+  font-weight: bold;
+}
+.services {
+  background-color: rgba(236, 240, 241, 0.48);
+}
+
+.avatar {
+  background: url(./images/147133.png);
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+}
+.team__staff {
+  padding: 120px;
+  margin-top: -100px;
+  text-align: right;
+}
